@@ -925,7 +925,7 @@ img{
     }
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 420px){
     .container{
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -989,7 +989,8 @@ img{
     }
 
     .skills__img img {
-        min-width: 100px;
+        min-width: 50px !important;
+        max-width: 60px;
     }
 
     .skills__content img + img {
@@ -1207,7 +1208,6 @@ img{
         margin-top: 4.5rem;
     }
 
-    
 }
 
 /* For large devices */
@@ -1258,5 +1258,4 @@ img{
         grid-template-columns: repeat(2, 1fr);
     }
 
-    
 }
