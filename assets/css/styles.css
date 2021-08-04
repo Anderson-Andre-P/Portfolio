@@ -865,6 +865,26 @@ img{
     color: #FFF;
 }
 
+
+/* @keyframes seta {
+    from {
+        right: 30px;
+    }
+
+    to {
+        right: 20px;
+    }
+}
+
+.el::after {
+    content: '→';
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: rgba(0,0,0, 1);
+    animation: seta .5s ease-in 0s infinite alternate;
+} */
+
 /*========== SCROLL UP ==========*/
 .scrollup{
     position: fixed;

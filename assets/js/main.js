@@ -193,3 +193,26 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+
+var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 3,
+    loop: true,
+    spaceBetween: 16,
+    coverflowEffect: {
+        rotate: 0,
+        slideShadows: false,
+        stretch: 0,
+        modifier: 0,
+        depth: 0,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+        type: 'bullets',
+    },
+});
