@@ -37,4 +37,7 @@
 
 Elaborado por Anderson André 👋🏽 Entre em contato!
 
-[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-%40anderson--andre--pereira-blue)](https://www.linkedin.com/in/anderson-andre-pereira/) 
+ <div> 
+  <a href = "mailto:andreandersoncaue.e@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/anderson-andre-pereira/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+</div>
