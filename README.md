@@ -15,7 +15,7 @@
 
 ### Features
 
-- [x] Feito sem frameworks e bibliotecas
+- [x] Feito com frameworks e bibliotecas
 - [x] Responsivo
 - [x] Botão para alterar entre Dark e Light theme
 - [x] Inserir barra de loading
