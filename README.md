@@ -6,7 +6,7 @@
    Aplicação desenvolvida durante meus estudos de desenvolvimento web.
 </h2>
 
-<p align="center">Esse site foi desenvolvido com o auxílio de um tutorial disponível no Youtube, porém desde que eu concluí o tutorial fiz diversas mudanças no layout e em seu conteúdo. Você pode ver o portfólio <a href="https://anderson-andre-p.github.io/Portfolio/" target="_blank">clicando aqui.</a>
+<p align="center">Esse site foi desenvolvido com o auxílio de um tutorial disponível no Youtube, porém desde que eu concluí o tutorial fiz diversas mudanças no layout e em seu conteúdo. Você pode ver o portfólio <a href="http://www.andersonandre.com" target="_blank">clicando aqui.</a>
 </p>
 
 <h2 align="center">
