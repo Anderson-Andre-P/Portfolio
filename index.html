@@ -1,860 +1,1288 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="google-site-verification" content="xqcQEfh-45mVcHDa-k2N6_lou5ixEiHPd9vA2UDOHj4" />
+    <meta
+      name="google-site-verification"
+      content="xqcQEfh-45mVcHDa-k2N6_lou5ixEiHPd9vA2UDOHj4"
+    />
 
     <!--==================== UNICONS ====================-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
     <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="assets/css/swiper--bundle.min.css">
+    <link rel="stylesheet" href="assets/css/swiper--bundle.min.css" />
 
     <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="./assets/img/favicon-32x32.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon-32x32.png"
+      type="image/x-icon"
+    />
 
     <!--==================== CSS ====================-->
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
     <title>Anderson André</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">Anderson</a>
-        
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list grid">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">
-                            <i class="uil uil-estate nav_icon"></i> Home
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">
-                            <i class="uil uil-user nav_icon"></i> Sobre
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">
-                            <i class="uil uil-file-alt nav_icon"></i> Habilidades
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#services" class="nav__link">
-                            <i class="uil uil-briefcase nav_icon"></i> Serviços
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#portfolio" class="nav__link">
-                            <i class="uil uil-scenery nav_icon"></i> Portfolio
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">
-                            <i class="uil uil-message nav_icon"></i> Contato
-                        </a>
-                    </li>
-                </ul>
-                <i class="uil uil-times nav__close" id="nav-close"></i>
-            </div>
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Anderson</a>
 
-            <div class="nav__btns">
-                <!-- Theme change button -->
-                <i class="uil uil-moon change-theme" id="theme-button"></i>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav_icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav_icon"></i> Sobre
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav_icon"></i> Habilidades
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">
+                <i class="uil uil-briefcase nav_icon"></i> Serviços
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav_icon"></i> Portfolio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav_icon"></i> Contato
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="uil uil-apps"></i>
-                </div>
-            </div>
-        </nav>
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!--==================== MAIN ====================-->
     <main class="main">
-        <!--==================== HOME ====================-->
-        <section class="home section" id="home">
-            <div class="home__container container grid">
-                <div class="home__content grid">
-                    <div class="home__social">
-                        <a href="https://www.linkedin.com/in/anderson-andre-pereira/" target="_blank" class="home__social-icon">
-                            <i class="uil uil-linkedin-alt"></i>
-                        </a>
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/anderson-andre-pereira/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
 
-                        <a href="https://github.com/Anderson-Andre-P" target="_blank" class="home__social-icon">
-                            <i class="uil uil-github-alt"></i>
-                        </a>
-                    </div>
+              <a
+                href="https://github.com/Anderson-Andre-P"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+            </div>
 
-                    <div class="home__img">
-                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <mask id="mask0" mask-type="alpha">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
                                 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
                                 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                            </mask>
-                            <g mask="url(#mask0)">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
                                 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                                 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                
-                                <image class="home__blob-img" x='30' y='-15' xlink:href="./assets/img/Saly-15.png" style="width: 125px;" />
-                            </g>
-                        </svg>
-                    </div>
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
 
-                    <div class="home__data">
-                        <h1 class="home__title">Olá, sou o Anderson</h1>
-                        <h3 class="home__subtitle">Desenvolvedor Front-End</h3>
-                        <p class="home__description">
-                            Eu sou um desenvolvedor Front-End apaixonado por dar vida ao design.
-                            <!-- Profissional de alto nível com conhecimentos de web design e desenvolvimento de sites, sempre realizando trabalhos de alta qualidade. -->
-                        </p>
-                        <a href="#contact" class="button button--flex">
-                            Entre em contato <i class="uil uil-message button__icon"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="home__scroll">
-                    <a href="#about" class="home__scroll-button button--flex">
-                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                        <span class="home__scroll-name">Role para baixo</span>
-                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-        <!--==================== ABOUT ====================-->
-        <section class="about section" id="about">
-            <h2 class="section__title">Sobre Mim</h2>
-            <span class="section__subtitle">Introdução</span>
-
-            <div class="about__container container grid">
-                <img src="./assets/img/Saly-16.png" alt="Profile Photo" class="about__img">
-            
-                <div class="about__data">
-                    <p class="about__description">
-                        Sou um desenvolvedor Front-End com conhecimentos de web design na área de interação com o usuário, movimentos, desenvolvimento fiel ao design.
-                    </p>
-
-                    <div class="about__info">
-                        <div>
-                            <span class="about__info-title">04+</span>
-                            <span class="about__info-name">Meses de<br> experiência</span>
-                        </div>
-                        
-                        <div>
-                            <span class="about__info-title">25+</span>
-                            <span class="about__info-name">Projetos <br> completados</span>
-                        </div>
-                        
-                        <div>
-                            <span class="about__info-title">01+</span>
-                            <span class="about__info-name">Participações em<br> eventos</span>
-                        </div>
-                    </div>
-
-                    <div class="about__buttons">
-                        <a download="" href="./assets/pdf/CurriculoAndersonFrontEnd.pdf" class="button button--flex">
-                            Download CV<i class="uil uil-download-alt button__icon"></i>
-                        </a>
-                    </div>
-                </div>
+                  <image
+                    class="home__blob-img"
+                    x="30"
+                    y="-15"
+                    xlink:href="./assets/img/Saly-15.png"
+                    style="width: 125px"
+                  />
+                </g>
+              </svg>
             </div>
 
-        </section>
+            <div class="home__data">
+              <h1 class="home__title">Olá, sou o Anderson</h1>
+              <h3 class="home__subtitle">Desenvolvedor Front-End</h3>
+              <p class="home__description">
+                Eu sou um desenvolvedor Front-End apaixonado por dar vida ao
+                design.
+                <!-- Profissional de alto nível com conhecimentos de web design e desenvolvimento de sites, sempre realizando trabalhos de alta qualidade. -->
+              </p>
+              <a href="#contact" class="button button--flex">
+                Entre em contato <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
 
-        <!--==================== SKILLS ====================-->
-        <section class="skills section el" id="skills">
-            
-            <h2 class="section__title">Habilidades</h2>
-            <span class="section__subtitle">Meu nível técnico (Arraste para o lado)</span>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Role para baixo</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
 
-            <!-- Swiper -->
-            <div class="swiper-container mySwiper container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="./assets/img/Html.svg" alt="HTML logo" class="skills__img">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./assets/img/Css.svg" alt="CSS logo" class="skills__img">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./assets/img/Js.svg" alt="JavaScript logo" class="skills__img">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./assets/img/Tailwind.png" alt="Tailwind CSS logo" class="skills__img">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./assets/img/Python.png" alt="Python logo" class="skills__img">
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">Sobre Mim</h2>
+        <span class="section__subtitle">Introdução</span>
+
+        <div class="about__container container grid">
+          <img
+            src="./assets/img/Saly-16.png"
+            alt="Profile Photo"
+            class="about__img"
+          />
+
+          <div class="about__data">
+            <p class="about__description">
+              Sou um desenvolvedor Front-End (mobile e web) com conhecimentos de
+              web design na área de interação com o usuário, movimentos e
+              realizo desenvolvimentos fieis ao design.
+            </p>
+
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">01+</span>
+                <span class="about__info-name"
+                  >Ano de<br />
+                  experiência</span
+                >
+              </div>
+
+              <div>
+                <span class="about__info-title">80+</span>
+                <span class="about__info-name"
+                  >Projetos <br />
+                  completados</span
+                >
+              </div>
+
+              <div>
+                <span class="about__info-title">05+</span>
+                <span class="about__info-name"
+                  >Participações em<br />
+                  eventos</span
+                >
+              </div>
             </div>
 
-        </section>
-
-        <!--==================== QUALIFICATION ====================-->
-        <section class="qualification section">
-            <h2 class="section__title">Qualificações</h2>
-            <span class="section__subtitle">Minha jornada pessoal</span>
-
-            <div class="qualification__container container">
-                <div class="qualification__tabs">
-                    <div class="qualification__button button--flex qualification__active" data-target='#education'>
-                        <i class="uil uil-graduation-cap qualification__icon"></i>
-                        Educação
-                    </div>
-                    <div class="qualification__button button--flex" data-target='#work'>
-                        <i class="uil uil-briefcase-alt qualification__icon"></i>
-                        Trabalhos
-                    </div>
-                </div>
-
-                <div class="qualification__sections">
-                    <!--==================== QUALIFICATION CONTENT 1 ====================-->
-                    <div class="qualification__content qualification__active" data-content id="education">
-                        <!--==================== QUALIFICATION 1 ====================-->
-                        <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">Sistemas de informação</h3>
-                                <span class="qualification__subtitle">Fundação de Ensino e Pesquisa de Itajubá</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2020 - Presente
-                                </div>
-                            </div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-
-                        </div>
-
-                        <!--==================== QUALIFICATION 2 ====================-->
-                        <div class="qualification__data">
-                            <div></div>
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-
-                            <div>
-                                <h3 class="qualification__title">Web Design</h3>
-                                <span class="qualification__subtitle">Estudei através de tutoriais no Youtube</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2020 - 2021
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--==================== QUALIFICATION 3 ====================-->
-                        <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">Desenvolvimento Web</h3>
-                                <span class="qualification__subtitle">Origamid</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2021 - Presente
-                                </div>
-                            </div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-                        </div>
-                        
-                        
-                        <!--==================== QUALIFICATION 4 ====================-->
-                        <div class="qualification__data">
-                            <div></div>
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-                            <div>
-                                <h3 class="qualification__title">Javascript</h3>
-                                <span class="qualification__subtitle">Udemy - Professor Luiz Otávio Miranda</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2021 - Presente
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!--==================== QUALIFICATION 5 ====================-->
-                        <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">Desenvolvimento Web</h3>
-                                <span class="qualification__subtitle">Rocketseat - Discover</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2021 - Presente
-                                </div>
-                            </div>
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <!-- <span class="qualification__line"></span> -->
-                            </div>
-                        </div> 
-                    </div>
-                    
-                    <!--==================== QUALIFICATION CONTENT 2 ====================-->
-                    <div class="qualification__content" data-content id="work">
-                        <!--==================== QUALIFICATION 1 ====================-->
-                        <div class="qualification__data">
-                            <div>
-                                <h3 class="qualification__title">UI Designer</h3>
-                                <span class="qualification__subtitle">Figma - Home Office</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2020 - Presente
-                                </div>
-                            </div>
-
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <span class="qualification__line"></span>
-                            </div>
-
-                        </div>
-
-                        <!--==================== QUALIFICATION 2 ====================-->
-                        <div class="qualification__data">
-                            <div></div>
-                            <div>
-                                <span class="qualification__rounder"></span>
-                                <!-- <span class="qualification__line"></span> -->
-                            </div>
-
-                            <div>
-                                <h3 class="qualification__title">Portfólio</h3>
-                                <span class="qualification__subtitle">Home Office</span>
-                                <div class="qualification__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    2021
-                                </div>
-                            </div>
-                        </div>
-                    
-                    </div>
-                </div>
+            <div class="about__buttons">
+              <a
+                download=""
+                href="./assets/pdf/CurriculoAndersonFrontEnd.pdf"
+                class="button button--flex"
+              >
+                Download CV<i class="uil uil-download-alt button__icon"></i>
+              </a>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!--==================== SERVICES ====================-->
-        <section class="services section" id="services">
-            <h2 class="section__title">Serviços</h2>
-            <span class="section__subtitle">O que eu ofereço</span>
-        
-            <div class="services__container container grid">
-                <!--==================== SERVICES 1 ====================-->
-                <div class="services__content">
-                    <div>
-                        <i class="uil uil-web-grid services__icon"></i>
-                        <h3 class="services__title">Ui <br> Designer</h3>
-                    </div>
+      <!--==================== SKILLS ====================-->
+      <section class="skills section el" id="skills">
+        <h2 class="section__title">Habilidades</h2>
+        <span class="section__subtitle"
+          >Meu nível técnico (Arraste para o lado)</span
+        >
 
-                    <span class="button button--flex button--small button--link services__button">
-                        Ver mais
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Ui <br> Designer</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-                        
-                            <ul class="services__modal-services grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>
-                                        Desenvolvimento de interfaces de usuário.
-                                    </p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>
-                                        Design de aplicativo para dispositivos móveis.
-                                    </p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>
-                                        Design de websites.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!--==================== SERVICES 2 ====================-->
-                <div class="services__content">
-                    <div>
-                        <i class="uil uil-pen services__icon"></i>
-                        <h3 class="services__title">Ux <br> Designer</h3>
-                    </div>
-
-                    <span class="button button--flex button--small button--link services__button">
-                        Ver mais
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">User Experience <br> Designer</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-                        
-                            <ul class="services__modal-services grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>
-                                        Desenvolvimento de elementos de interação.
-                                    </p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>
-                                        Desenvolvimento com base em acessibilidade.
-                                    </p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>
-                                        Elaboração de boas experiências para o usuário.
-                                    </p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>
-                                        Realização de pesquisas.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!--==================== SERVICES 3 ====================-->
-                <div class="services__content">
-                    <div>
-                        <i class="uil uil-arrow services__icon"></i>
-                        <h3 class="services__title">Desenvolvimento <br> Front-End</h3>
-                    </div>
-
-                    <span class="button button--flex button--small button--link services__button">
-                        Ver mais
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Desenvolvedor <br> Front-End</h4>
-                            <i class="uil uil-times services__modal-close"></i>
-                        
-                            <ul class="services__modal-services grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>
-                                        Desenvolvimento de websites com HTML, CSS e Js.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
+        <!-- Swiper -->
+        <div class="swiper-container mySwiper container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="./assets/img/tecnologias/react.svg"
+                alt="React logo"
+                class="skills__img"
+              />
             </div>
-        </section>
-
-        <!--==================== PORTFOLIO ====================-->
-        <section class="portfolio section" id="portfolio">
-            <h2 class="section__title">Portfolio</h2>
-            <span class="section__subtitle">Trabalhos mais recentes</span>
-
-            <div class="portfolio__container container swiper-container">
-                <div class="swiper-wrapper">
-                    <!--==================== PORTFOLIO 1 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/SaveAnimals.png" alt="Portfolio 1" class="portfolio__img">
-                    
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Releitura Moderno</h3>
-                            <p class="portfoliodescription">
-                                Redesign feito pensando no site da instituição World Wildlife Fund (WWF).
-                            </p>
-                            <a href="https://www.figma.com/file/tOyQ0U22C46Ss9JJzhN06w/Salve-os-animais?node-id=0%3A1" target="__blank" class="button button--flex button--small portfolio__button">
-                                Ver no Figma
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 2 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/Rocket.q.png" alt="Portfolio 2" class="portfolio__img">
-                    
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Rocket.Q</h3>
-                            <p class="portfoliodescription">
-                                Website de perguntas e respostas anônimas desenvolvido durante a trilha Discover da 6ª edição da NLW.
-                            </p>
-                            <a href="https://github.com/Anderson-Andre-P/nlw-rocket.q" target="__blank" class="button button--flex button--small portfolio__button">
-                                Repositório
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 3 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/wildbeast.png" alt="Portfolio 3" class="portfolio__img">
-                    
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Wildbeast</h3>
-                            <p class="portfoliodescription">
-                                Website responsivo desenvolvido durante o curso de CSS Grid da Origamid.
-                            </p>
-                            <a href="https://anderson-andre-p.github.io/wildbeast/" target="__blank" class="button button--flex button--small portfolio__button">
-                                Ver
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 4 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/PontodoPescador.png" alt="Portfolio 4" class="portfolio__img">
-                    
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Design para Site de Pescas</h3>
-                            <p class="portfoliodescription">
-                                Design moderno elaborado para um site de pescarias.
-                            </p>
-                            <a href="https://www.figma.com/file/cCtnmtDpqZem1hMcPy3K1b/Ponto-do-Pescador?node-id=0%3A1" target="__blank" class="button button--flex button--small portfolio__button">
-                                Ver no Figma
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 5 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/Discover.png" alt="Portfolio 5" class="portfolio__img">
-                    
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Dev Finance$</h3>
-                            <p class="portfoliodescription">
-                                Aplicação desenvolvida durante na maratona Discover da Rocketseat.
-                            </p>
-                            <a href="https://anderson-andre-p.github.io/maratona-discover/" target="__blank" class="button button--flex button--small portfolio__button">
-                                Ver
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 6 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/OriginSix.png" alt="Portfolio 6" class="portfolio__img">
-                    
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Beauty Salon</h3>
-                            <p class="portfoliodescription">
-                                Website desenvolvido para um salão de beleza durante a 6ª Next Level Week na trilha Origin.
-                            </p>
-                            <a href="https://anderson-andre-p.github.io/BeautySalon/" target="__blank" class="button button--flex button--small portfolio__button">
-                                Ver
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 7 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/projetoClima.png" alt="Portfolio 7" class="portfolio__img">
-                    
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Projeto Clima</h3>
-                            <p class="portfoliodescription">
-                                Website desenvolvido para saber o clima em qualquer local do mundo.
-                            </p>
-                            <a href="https://anderson-andre-p.github.io/projetoClima/" target="__blank" class="button button--flex button--small portfolio__button">
-                                Ver
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 8 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/respiracaoApp.png" alt="Portfolio 8" class="portfolio__img">
-                    
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Respire & Relaxe</h3>
-                            <p class="portfoliodescription">
-                                Projeto desenvolvido para eu ajudar uma pessoa a respirar.
-                            </p>
-                            <a href="https://anderson-andre-p.github.io/respireERelaxeApp/" target="__blank" class="button button--flex button--small portfolio__button">
-                                Ver
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 9 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/geradorDeGradientes.png" alt="Portfolio 9" class="portfolio__img">
-                    
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Gerador de Gradientes</h3>
-                            <p class="portfoliodescription">
-                                Projeto desenvolvido para me ajudar a achar um gradiente bonito.
-                            </p>
-                            <a href="https://anderson-andre-p.github.io/geradorDeGradientes/" target="__blank" class="button button--flex button--small portfolio__button">
-                                Ver
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 10 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/Lista-de-tarefas-dark.png" alt="Portfolio 10" class="portfolio__img">
-                    
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Lista de Tarefas</h3>
-                            <p class="portfoliodescription">
-                                Projeto desenvolvido para ajudar a manter uma pessoa mais organizada.
-                            </p>
-                            <a href="https://anderson-andre-p.github.io/Lista-de-Tarefas/" target="__blank" class="button button--flex button--small portfolio__button">
-                                Ver
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 11 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/signin.png" alt="Portfolio 11" class="portfolio__img">
-                    
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Sign In & Sign Up</h3>
-                            <p class="portfoliodescription">
-                                Projeto desenvolvido para treinar animações e estilização de formulários.
-                            </p>
-                            <a href="https://anderson-andre-p.github.io/Sign-in-Sign-up/" target="__blank" class="button button--flex button--small portfolio__button">
-                                Ver
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 12 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/StarbucksClone.png" alt="Portfolio 12" class="portfolio__img">
-                    
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Clone Starbucks</h3>
-                            <p class="portfoliodescription">
-                                Projeto desenvolvido para treinar CSS.
-                            </p>
-                            <a href="https://github.com/Anderson-Andre-P/cloneStarbucks" target="__blank" class="button button--flex button--small portfolio__button">
-                                Repositório
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 13 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/todoList.png" alt="Portfolio 13" class="portfolio__img">
-                    
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">TodoList</h3>
-                            <p class="portfoliodescription">
-                                Primeiro projeto desenvolvido com React Native.
-                            </p>
-                            <a href="https://github.com/Anderson-Andre-P/todoList" target="__blank" class="button button--flex button--small portfolio__button">
-                                Repositório
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 14 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/Travel.png" alt="Portfolio 14" class="portfolio__img">
-                    
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Travel</h3>
-                            <p class="portfoliodescription">
-                                Projeto desenvolvido para uma agência de viagens.
-                            </p>
-                            <a href="https://anderson-andre-p.github.io/Travel/" target="__blank" class="button button--flex button--small portfolio__button">
-                                Ver
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 15 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/YoutubeClone.png" alt="Portfolio 15" class="portfolio__img">
-                    
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Youtube Clone</h3>
-                            <p class="portfoliodescription">
-                                Projeto desenvolvido para estudar o consumo de APIs.
-                            </p>
-                            <a href="https://github.com/Anderson-Andre-P/cloneYoutube" target="__blank" class="button button--flex button--small portfolio__button">
-                                Repositório
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 16 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/Portfolio.png" alt="Portfolio 16" class="portfolio__img">
-                    
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Portfólio</h3>
-                            <p class="portfoliodescription">
-                                Website desenvolvido para funcionar como meu portfólio.
-                            </p>
-                            <a href="#" target="__blank" class="button button--flex button--small portfolio__button">
-                                Você já está nele
-                                <!-- <i class="uil uil-arrow-right button__icon"></i> -->
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-button-next">
-                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                </div>
-                <div class="swiper-button-prev">
-                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                </div>
-                <div class="swiper-pagination"></div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/img/tecnologias/flutter.svg"
+                alt="Flutter logo"
+                class="skills__img"
+              />
             </div>
-        </section>
+            <div class="swiper-slide">
+              <img
+                src="./assets/img/tecnologias/next.svg"
+                alt="Next logo"
+                class="skills__img"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/img/tecnologias/sass.svg"
+                alt="Sass logo"
+                class="skills__img"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/img/tecnologias/tailwind-css.svg"
+                alt="Tailwind CSS logo"
+                class="skills__img"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/img/tecnologias/ts.svg"
+                alt="TypeScript logo"
+                class="skills__img"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/img/tecnologias/js.svg"
+                alt="JavaScript logo"
+                class="skills__img"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/img/tecnologias/html.svg"
+                alt="Html 5 logo"
+                class="skills__img"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/img/tecnologias/css.svg"
+                alt="Css 3 logo"
+                class="skills__img"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/img/tecnologias/react-native.svg"
+                alt="React Native logo"
+                class="skills__img"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets/img/tecnologias/styled-components.svg"
+                alt="Styled Components logo"
+                class="skills__img"
+              />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
 
-        <!--==================== PROJECT IN MIND ====================-->
-        <section class="project section">
-            <div class="project__bg">
-                <div class="project__container container grid">
-                    <div class="project__data">
-                        <h2 class="project__title">Você está em busca de um desenvolvedor Front-End?</h2>
-                        <p class="project__description">
-                            Entre em contato comigo clicando no botão abaixo.
-                        </p>
-                        <a href="https://api.whatsapp.com/send?phone=5535984036852&text=Olá%20Anderson,%20te%20achei%20através%20de%20seu%20portfólio." target="__blank" class="button button--flex button--white">
-                            Contato
-                            <i class="uil uil-message project__icon button__icon"></i>
-                        </a>
-                    </div>
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section">
+        <h2 class="section__title">Qualificações</h2>
+        <span class="section__subtitle">Minha jornada pessoal</span>
 
-                    <img src="./assets/img/Saly-10.png" alt="" class="project__img">
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Educação
+            </div>
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              Trabalhos
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Sistemas de informação</h3>
+                  <span class="qualification__subtitle"
+                    >Fundação de Ensino e Pesquisa de Itajubá</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2020 - Presente
+                  </div>
                 </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Web Design</h3>
+                  <span class="qualification__subtitle"
+                    >Estudei através de tutoriais no Youtube</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2020 - 2021
+                  </div>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 3 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Desenvolvimento Web</h3>
+                  <span class="qualification__subtitle">Origamid</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2021
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 4 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">Javascript</h3>
+                  <span class="qualification__subtitle"
+                    >Udemy - Professor Luiz Otávio Miranda</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2021
+                  </div>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 5 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Desenvolvimento Web</h3>
+                  <span class="qualification__subtitle"
+                    >Rocketseat - Discover</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2021
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification__title">
+                    Desenvolvimento web com ReactJs
+                  </h3>
+                  <span class="qualification__subtitle"
+                    >Rocketseat - Ignite</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022
+                  </div>
+                </div>
+              </div>
+
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">
+                    Desenvolvimento Mobile com React Native
+                  </h3>
+                  <span class="qualification__subtitle"
+                    >Rocketseat - Ignite</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2022
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+              </div>
             </div>
 
-        </section>
-
-        <!--==================== CONTACT ME ====================-->
-        <section class="contact section" id="contact">
-            <h2 class="section__title">Entre em contato comigo</h2>
-            <span class="section__subtitle">Entrar em contato</span>
-
-            <div class="contact__container container grid">
-                
-                    <div class="contact__information">
-                        <i class="uil uil-phone contact__icon"></i>
-
-                        <div>
-                            <h3 class="contact__title">Me ligue</h3>
-                            <span class="contact__subtitle">(35) 9 8403-6852</span>
-                        </div>
-                    </div>
-                
-                <div class="contact__information">
-                    <i class="uil uil-envelope contact__icon"></i>
-
-                    <div>
-                        <h3 class="contact__title">Mande um e-mail</h3>
-                        <span class="contact__subtitle">andreandersoncaue.e@gmail.com</span>
-                    </div>
+          <!--==================== QUALIFICATION CONTENT 2 ====================-->
+          <div class="qualification__content" data-content id="work">
+            <!--==================== QUALIFICATION 1 ====================-->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Desenvolvedor web</h3>
+                <span class="qualification__subtitle">Procon Municipal</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2021
                 </div>
+              </div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
             </div>
 
-        </section>
+            <!--==================== QUALIFICATION 2 ====================-->
+            <div class="qualification__data">
+              <div></div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <!-- <span class="qualification__line"></span> -->
+              </div>
+
+              <div>
+                <h3 class="qualification__title">Desenvolvedor mobile</h3>
+                <span class="qualification__subtitle">Foursys</span>
+                <div class="qualification__calendar">
+                  <i class="uil uil-calendar-alt"></i>
+                  2022
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section__title">Serviços</h2>
+        <span class="section__subtitle">O que eu ofereço</span>
+
+        <div class="services__container container grid">
+          <!--==================== SERVICES 1 ====================-->
+          <div class="services__content">
+            <div>
+              <i class="uil uil-web-grid services__icon"></i>
+              <h3 class="services__title">
+                Ui/Ux <br />
+                Designer
+              </h3>
+            </div>
+
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
+              Ver mais
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  Ui/Ux <br />
+                  Designer
+                </h4>
+                <i class="uil uil-times services__modal-close"></i>
+
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Desenvolvimento de interfaces de usuário.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Design de aplicativo para dispositivos móveis.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Design de websites.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Desenvolvimento de elementos de interação.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Desenvolvimento com base em acessibilidade.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Elaboração de boas experiências para o usuário.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Realização de pesquisas.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== SERVICES 2 ====================-->
+          <div class="services__content">
+            <div>
+              <i class="uil uil-mobile-android services__icon"></i>
+              <h3 class="services__title">
+                Desenvolvimento mobile <br />
+              </h3>
+            </div>
+
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
+              Ver mais
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  Desenvolvimento mobile <br />
+                </h4>
+                <i class="uil uil-times services__modal-close"></i>
+
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Desenvolvimento de aplicativos com Flutter.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Desenvolvimento de aplicativos com React Native.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== SERVICES 3 ====================-->
+          <div class="services__content">
+            <div>
+              <i class="uil uil-arrow services__icon"></i>
+              <h3 class="services__title">
+                Desenvolvimento <br />
+                Front-End
+              </h3>
+            </div>
+
+            <span
+              class="button button--flex button--small button--link services__button"
+            >
+              Ver mais
+              <i class="uil uil-arrow-right button__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <h4 class="services__modal-title">
+                  Desenvolvedor <br />
+                  Front-End
+                </h4>
+                <i class="uil uil-times services__modal-close"></i>
+
+                <ul class="services__modal-services grid">
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Desenvolvimento de websites com HTML, CSS e Js.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Desenvolvimento de websites com ReactJs.</p>
+                  </li>
+                  <li class="services__modal-service">
+                    <i class="uil uil-check-circle services__modal-icon"></i>
+                    <p>Desenvolvimento de websites com NextJs.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Portfolio</h2>
+        <span class="section__subtitle">Trabalhos mais recentes</span>
+
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <div class="portfolio__content grid swiper-slide">
+                <img
+                  src="assets/img/Projetos/GoFinancesMobile.png"
+                  alt="Portfolio 1"
+                  class="portfolio__img"
+                />
+  
+                <div class="portfolio__data">
+                  <h3 class="portfolio__title">Releitura Moderno</h3>
+                  <p class="portfoliodescription">
+                    Aplicativo para controle de despesas pessoais desenvolvido em React Native.
+                  </p>
+                  <a
+                    href="https://github.com/Anderson-Andre-P/GoFinancesMobile"
+                    target="__blank"
+                    class="button button--flex button--small portfolio__button"
+                  >
+                    Ver no Github
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+                </div>
+              </div>
+
+            <!--==================== PORTFOLIO 1 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/Projetos/ToDoMobile.png"
+                alt="Portfolio 2"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">App de ToDo</h3>
+                <p class="portfoliodescription">
+                  Aplicativo para controle de tarefas a serem feitas desenvolvido com React Native.
+                </p>
+                <a
+                  href="https://github.com/Anderson-Andre-P/ToDoApp"
+                  target="__blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Ver no Github
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+                <img
+                  src="assets/img/Projetos/Ignews.png"
+                  alt="Portfolio 2"
+                  class="portfolio__img"
+                />
+  
+                <div class="portfolio__data">
+                  <h3 class="portfolio__title">Ignews</h3>
+                  <p class="portfoliodescription">
+                    Blog desenvolvido com NextJs
+                  </p>
+                  <a
+                    href="https://github.com/Anderson-Andre-P/ignews"
+                    target="__blank"
+                    class="button button--flex button--small portfolio__button"
+                  >
+                    Ver no Github
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="portfolio__content grid swiper-slide">
+                <img
+                  src="assets/img/Projetos/Google.png"
+                  alt="Portfolio 3"
+                  class="portfolio__img"
+                />
+  
+                <div class="portfolio__data">
+                  <h3 class="portfolio__title">Google</h3>
+                  <p class="portfoliodescription">
+                    Clone da página de pesquisa do Google desenvolvido com ReactJs
+                  </p>
+                  <a
+                    href="https://github.com/Anderson-Andre-P/google-clone"
+                    target="__blank"
+                    class="button button--flex button--small portfolio__button"
+                  >
+                    Ver no Github
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class="portfolio__content grid swiper-slide">
+                <img
+                  src="assets/img/Projetos/Feed.png"
+                  alt="Portfolio 3"
+                  class="portfolio__img"
+                />
+  
+                <div class="portfolio__data">
+                  <h3 class="portfolio__title">Feed</h3>
+                  <p class="portfoliodescription">
+                    Website desenvolvido com ReactJs para simular o feed de uma rede social
+                  </p>
+                  <a
+                    href="https://github.com/Anderson-Andre-P/google-clone"
+                    target="__blank"
+                    class="button button--flex button--small portfolio__button"
+                  >
+                    Ver no Github
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+                </div>
+              </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/Rocket.q.png"
+                alt="Portfolio 2"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Rocket.Q</h3>
+                <p class="portfoliodescription">
+                  Website de perguntas e respostas anônimas desenvolvido durante
+                  a trilha Discover da 6ª edição da NLW.
+                </p>
+                <a
+                  href="https://github.com/Anderson-Andre-P/nlw-rocket.q"
+                  target="__blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Repositório
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/wildbeast.png"
+                alt="Portfolio 3"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Wildbeast</h3>
+                <p class="portfoliodescription">
+                  Website responsivo desenvolvido durante o curso de CSS Grid da
+                  Origamid.
+                </p>
+                <a
+                  href="https://anderson-andre-p.github.io/wildbeast/"
+                  target="__blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Ver
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 4 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/PontodoPescador.png"
+                alt="Portfolio 4"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Design para Site de Pescas</h3>
+                <p class="portfoliodescription">
+                  Design moderno elaborado para um site de pescarias.
+                </p>
+                <a
+                  href="https://www.figma.com/file/cCtnmtDpqZem1hMcPy3K1b/Ponto-do-Pescador?node-id=0%3A1"
+                  target="__blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Ver no Figma
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 5 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/Discover.png"
+                alt="Portfolio 5"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Dev Finance$</h3>
+                <p class="portfoliodescription">
+                  Aplicação desenvolvida durante na maratona Discover da
+                  Rocketseat.
+                </p>
+                <a
+                  href="https://anderson-andre-p.github.io/maratona-discover/"
+                  target="__blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Ver
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 6 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/OriginSix.png"
+                alt="Portfolio 6"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Beauty Salon</h3>
+                <p class="portfoliodescription">
+                  Website desenvolvido para um salão de beleza durante a 6ª Next
+                  Level Week na trilha Origin.
+                </p>
+                <a
+                  href="https://anderson-andre-p.github.io/BeautySalon/"
+                  target="__blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Ver
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 7 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/projetoClima.png"
+                alt="Portfolio 7"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Projeto Clima</h3>
+                <p class="portfoliodescription">
+                  Website desenvolvido para saber o clima em qualquer local do
+                  mundo.
+                </p>
+                <a
+                  href="https://anderson-andre-p.github.io/projetoClima/"
+                  target="__blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Ver
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 8 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/respiracaoApp.png"
+                alt="Portfolio 8"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Respire & Relaxe</h3>
+                <p class="portfoliodescription">
+                  Projeto desenvolvido para eu ajudar uma pessoa a respirar.
+                </p>
+                <a
+                  href="https://anderson-andre-p.github.io/respireERelaxeApp/"
+                  target="__blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Ver
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 9 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/geradorDeGradientes.png"
+                alt="Portfolio 9"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Gerador de Gradientes</h3>
+                <p class="portfoliodescription">
+                  Projeto desenvolvido para me ajudar a achar um gradiente
+                  bonito.
+                </p>
+                <a
+                  href="https://anderson-andre-p.github.io/geradorDeGradientes/"
+                  target="__blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Ver
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 10 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/Lista-de-tarefas-dark.png"
+                alt="Portfolio 10"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Lista de Tarefas</h3>
+                <p class="portfoliodescription">
+                  Projeto desenvolvido para ajudar a manter uma pessoa mais
+                  organizada.
+                </p>
+                <a
+                  href="https://anderson-andre-p.github.io/Lista-de-Tarefas/"
+                  target="__blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Ver
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 11 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/signin.png"
+                alt="Portfolio 11"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Sign In & Sign Up</h3>
+                <p class="portfoliodescription">
+                  Projeto desenvolvido para treinar animações e estilização de
+                  formulários.
+                </p>
+                <a
+                  href="https://anderson-andre-p.github.io/Sign-in-Sign-up/"
+                  target="__blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Ver
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 12 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/StarbucksClone.png"
+                alt="Portfolio 12"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Clone Starbucks</h3>
+                <p class="portfoliodescription">
+                  Projeto desenvolvido para treinar CSS.
+                </p>
+                <a
+                  href="https://github.com/Anderson-Andre-P/cloneStarbucks"
+                  target="__blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Repositório
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 13 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/todoList.png"
+                alt="Portfolio 13"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">TodoList</h3>
+                <p class="portfoliodescription">
+                  Primeiro projeto desenvolvido com React Native.
+                </p>
+                <a
+                  href="https://github.com/Anderson-Andre-P/todoList"
+                  target="__blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Repositório
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 14 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/Travel.png"
+                alt="Portfolio 14"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Travel</h3>
+                <p class="portfoliodescription">
+                  Projeto desenvolvido para uma agência de viagens.
+                </p>
+                <a
+                  href="https://anderson-andre-p.github.io/Travel/"
+                  target="__blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Ver
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 15 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/YoutubeClone.png"
+                alt="Portfolio 15"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Youtube Clone</h3>
+                <p class="portfoliodescription">
+                  Projeto desenvolvido para estudar o consumo de APIs.
+                </p>
+                <a
+                  href="https://github.com/Anderson-Andre-P/cloneYoutube"
+                  target="__blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Repositório
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 16 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/Portfolio.png"
+                alt="Portfolio 16"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Portfólio</h3>
+                <p class="portfoliodescription">
+                  Website desenvolvido para funcionar como meu portfólio.
+                </p>
+                <a
+                  href="#"
+                  target="__blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Você já está nele
+                  <!-- <i class="uil uil-arrow-right button__icon"></i> -->
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== PROJECT IN MIND ====================-->
+      <section class="project section">
+        <div class="project__bg">
+          <div class="project__container container grid">
+            <div class="project__data">
+              <h2 class="project__title">
+                Você está em busca de um desenvolvedor Front-End?
+              </h2>
+              <p class="project__description">
+                Entre em contato comigo clicando no botão abaixo.
+              </p>
+              <a
+                href="https://api.whatsapp.com/send?phone=5535984036852&text=Olá%20Anderson,%20te%20achei%20através%20de%20seu%20portfólio."
+                target="__blank"
+                class="button button--flex button--white"
+              >
+                Contato
+                <i class="uil uil-message project__icon button__icon"></i>
+              </a>
+            </div>
+
+            <img src="./assets/img/Saly-10.png" alt="" class="project__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Entre em contato comigo</h2>
+        <span class="section__subtitle">Entrar em contato</span>
+
+        <div class="contact__container container grid">
+          <div class="contact__information">
+            <i class="uil uil-phone contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Me ligue</h3>
+              <span class="contact__subtitle">(35) 9 8403-6852</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-envelope contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Mande um e-mail</h3>
+              <span class="contact__subtitle"
+                >andreandersoncaue.e@gmail.com</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--==================== FOOTER ====================-->
     <footer class="footer">
-        <div class="footer__bg">
-            <div class="footer__container container grid">
-                <div>
-                    <h1 class="footer__title">Anderson</h1>
-                    <span class="footer__subtitle">Desenvolvedor Front-End</span>
-                </div>
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Anderson</h1>
+            <span class="footer__subtitle">Desenvolvedor Front-End</span>
+          </div>
 
-                <ul class="footer__links">
-                    <li>
-                        <a href="#services" class="footer__link">Serviços</a>
-                    </li>
-                    <li>
-                        <a href="#portfolio" class="footer__link">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#contact" class="footer__link">Contato</a>
-                    </li>
-                </ul>
+          <ul class="footer__links">
+            <li>
+              <a href="#services" class="footer__link">Serviços</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contato</a>
+            </li>
+          </ul>
 
-                <div class="footer__socials">
+          <div class="footer__socials">
+            <a
+              href="https://www.linkedin.com/in/anderson-andre-pereira/"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-linkedin-alt"></i>
+            </a>
 
+            <a
+              href="https://github.com/Anderson-Andre-P"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-github-alt"></i>
+            </a>
 
-                    <a href="https://www.linkedin.com/in/anderson-andre-pereira/" target="_blank" class="footer__social">
-                        <i class="uil uil-linkedin-alt"></i>
-                    </a>
-
-                    <a href="https://github.com/Anderson-Andre-P" target="_blank" class="footer__social">
-                        <i class="uil uil-github-alt"></i>
-                    </a>
-
-                    <a href="https://www.instagram.com/and3rsonandre/" target="_blank" class="footer__social">
-                        <i class="uil uil-instagram"></i>
-                    </a>
-                </div>
-            </div>
-
-            <p class="footer__copy">
-                &#169; Anderson André. Alguns direitos reservados
-            </p>
+            <a
+              href="https://www.instagram.com/and3rsonandre/"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-instagram"></i>
+            </a>
+          </div>
         </div>
 
+        <p class="footer__copy">
+          &#169; Anderson André. Alguns direitos reservados
+        </p>
+      </div>
     </footer>
 
     <!--==================== SCROLL TOP ====================-->
     <a href="#" class="scrollup" id="scroll-up">
-        <i class="uil uil-arrow-up scrollup__icon"></i>
+      <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
 
     <!--==================== SWIPER JS ====================-->
@@ -867,6 +1295,5 @@
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
-</body>
-
+  </body>
 </html>
