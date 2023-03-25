@@ -1408,3 +1408,51 @@ img {
     transform: rotate(360deg);
   }
 }
+
+.seeking_opportunities {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: var(--mb-0-75);
+}
+
+.seeking_opportunities.center {
+  justify-content: center;
+}
+
+.blob {
+  background: rgb(16, 199, 31);
+  border-radius: 50%;
+  margin: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.blob {
+  background: rgb(16, 199, 31);
+  border-radius: 50%;
+  margin: 10px;
+  height: 20px;
+  width: 20px;
+
+  box-shadow: 0 0 0 0 rgba(16, 199, 31, 1);
+  transform: scale(1);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(16, 199, 31, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(16, 199, 31, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(16, 199, 31, 0);
+  }
+}
